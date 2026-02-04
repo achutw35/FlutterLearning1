@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:helloworld/view/home_view.dart';
 
 void main() {
@@ -8,7 +9,7 @@ void main() {
 class ToDoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'My App',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: HomeView(),
