@@ -22,7 +22,7 @@ class _ContactViewState extends State<ContactView> {
             Text("Contact Page"),
             FilledButton(
               onPressed: () {
-                Get.to(() => HomeView());
+                Get.offAll(() => HomeView());
               },
               child: Text("Go to Home"),
             )
